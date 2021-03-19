@@ -1,0 +1,62 @@
+body {
+  background-color: #8f02a1;
+}
+
+.bgColor {
+  background-color: #231e39;
+  border-radius: 1.2rem;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.btnColor {
+  background-color: #231e39;
+  border: 1px solid #c400d7;
+  border-radius: 8px;
+  color: #c400d7;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+  background-color: #8f02a1;
+  color: #ffff;
+  border-color: #8f02a1;
+}
+
+.imgClass {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  border-radius: 1000px;
+  padding: 0.5rem;
+  border: 2px solid #8f02a1;
+}
+.card-top,
+.card-bottom {
+  padding: 1rem;
+}
+
+.buttomBgColor {
+  background-color: #1f1a36;
+}
+.card-top {
+  position: relative;
+}
+.pro-btn {
+  border: 0;
+  background-color: #febb0b;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.2rem;
+  font-weight: 700;
+  position: absolute;
+  /* relative,absolute,fixed -> left , right , top , bottom */
+}
+.skillBtn {
+  border: 1px solid #747997;
+  background-color: #1f1a36;
+  color: #6e778f;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+}
